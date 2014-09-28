@@ -62,6 +62,14 @@ header h1 {
     height: 30px;
 }
 
+.social-icons img:hover {
+	transform: scale(1.25);
+}
+
+.fade-in:hover {
+	transform: scale(1.03);
+}
+
 .box a,
 .box a:hover {
     color: #555;
