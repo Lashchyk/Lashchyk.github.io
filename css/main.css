@@ -4,6 +4,7 @@ body {
     font-size: 18px;
     line-height: 20px;
     background-color: #eee;
+    background-image: url('pictures/background.png');
 }
 
 header {
