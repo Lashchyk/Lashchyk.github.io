@@ -1,0 +1,166 @@
+body {
+    margin: 0px;
+    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #eee;
+}
+
+section {
+	 /*height: 28em;
+    position: relative;*/
+}
+
+header {
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+	top: 100px;
+	height: 300px;
+	 /*position: absolute;
+	margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+   -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+}
+
+header h1 {
+	text-align: center;
+    font-size: 50px;
+    line-height: 24px;
+    margin: 0 0 6px 0;
+    letter-spacing: -0.08em;
+}
+.box {
+	text-align: center;
+	background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    width: 250px;
+    float: left;
+    margin-left: 150px;
+	height: 250px;
+    -webkit-box-shadow:0px 0px 5px 0px rgba(0, 0, 0, 0.13);    
+    box-shadow:0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+}
+
+.content {
+	margin-top:50px;
+}
+
+.social-icons {
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.box a,
+.box a:hover {
+    color: #555;
+    text-decoration: none;
+}
+
+
+/*==================================================
+ * Effect 2
+ * ===============================================*/
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+/*==================================================
+ * Effect 3
+ * ===============================================*/
+.effect3
+{
+  position: relative;
+}
+.effect3:before
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+/*==================================================
+ * Effect 4
+ * ===============================================*/
+.effect4
+{
+  position: relative;
+}
+.effect4:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  right: 10px;
+  left: auto;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
