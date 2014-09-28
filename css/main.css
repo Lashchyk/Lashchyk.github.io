@@ -194,11 +194,12 @@ header h1 {
 }
 
 .footer {
-  clear: both;
-  color: #666;  
-  margin: 0 auto 10px auto;
-  width: 850px;
-  padding: 110px 0;
-  text-align: center;
-  font-size: 14px;
+  position: absolute;
+  left: 0;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
 }
