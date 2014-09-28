@@ -70,6 +70,70 @@ header h1 {
 
 
 /*==================================================
+ * Effect 3
+ * ===============================================*/
+.effect3
+{
+  position: relative;
+}
+.effect3:before
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; }}
+@-webkit-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; }}
+@-moz-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; }}
+
+.fade-in {
+	opacity: 0;
+	animation: fadeIn ease-in 1;
+	-webkit-animation: fadeIn ease-in 1;
+	-moz-animation: fadeIn ease-in 1;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+}
+
+.fade-in.one {
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
+	-moz-animation-delay: 0.7s;
+}
+
+.fade-in.two {
+	animation-delay: 1.2s;
+	-webkit-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+}
+
+.fade-in.three {
+	animation-delay: 1.6s;
+	-webkit-animation-delay: 1.6s;
+	-moz-animation-delay: 1.6s;
+}
+
+
+/*==================================================
  * Effect 2
  * ===============================================*/
 .effect2
@@ -107,33 +171,6 @@ header h1 {
   left: auto;
 }
 
-/*==================================================
- * Effect 3
- * ===============================================*/
-.effect3
-{
-  position: relative;
-}
-.effect3:before
-{
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
-  -o-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
-}
 
 /*==================================================
  * Effect 4
@@ -144,7 +181,7 @@ header h1 {
 }
 .effect4:after
 {
-  z-index: -1;
+  z-index: -1000;
   position: absolute;
   content: "";
   bottom: 15px;
@@ -163,4 +200,3 @@ header h1 {
   -ms-transform: rotate(3deg);
   transform: rotate(3deg);
 }
-
