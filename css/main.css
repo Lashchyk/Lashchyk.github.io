@@ -3,7 +3,6 @@ body {
     font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
     font-size: 18px;
     line-height: 20px;
-    background-color: #eee;
     background-image: url('pictures/background.png');
 }
 
@@ -63,7 +62,6 @@ header h1 {
     color: #555;
     text-decoration: none;
 }
-
 
 /*==================================================
  * Effect 3
@@ -128,7 +126,6 @@ header h1 {
 	-moz-animation-delay: 1.6s;
 }
 
-
 /*==================================================
  * Effect 2
  * ===============================================*/
@@ -167,7 +164,6 @@ header h1 {
   left: auto;
 }
 
-
 /*==================================================
  * Effect 4
  * ===============================================*/
@@ -195,4 +191,14 @@ header h1 {
   -o-transform: rotate(3deg);
   -ms-transform: rotate(3deg);
   transform: rotate(3deg);
+}
+
+.footer {
+  clear: both;
+  color: #666;  
+  margin: 0 auto 10px auto;
+  width: 850px;
+  padding: 110px 0;
+  text-align: center;
+  font-size: 14px;
 }
